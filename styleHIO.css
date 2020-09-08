@@ -16,3 +16,16 @@ p {
   .yellow {
     background-color: #F4C95B;
   }
+
+  .products {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row;  */
+
+  }
+
+  .row1,
+   .row2 {
+     display: flex;
+     flex-direction: row; 
+  } 
