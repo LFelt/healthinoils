@@ -1,6 +1,9 @@
-p {
+.container-fluid { 
+  padding: 0;
+}
+/* p {
     font-size: 1.5rem;
-  }
+  } */
   
   .jumbotron {
     padding-top: 10rem;
@@ -17,11 +20,19 @@ p {
     background-color: #F4C95B;
   }
 
+  .black {
+    background-color: black;
+    color: white;
+  }
+  
+  .btn-warning {
+    background-color: #F4C95B;
+  }
+
   .products {
     display: flex;
     justify-content: space-around;
     /* flex-direction: row;  */
-
   }
 
   .row1,
