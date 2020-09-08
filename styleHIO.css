@@ -44,7 +44,9 @@ h1 {
   .btn-warning {
     background-color: #F4C95B;
   }
-
+.title {
+  text-align: center;
+}
   .products {
     display: flex;
     justify-content: space-around;
