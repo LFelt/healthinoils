@@ -1,11 +1,15 @@
 .container-fluid { 
   padding: 0;
 }
-/* p {
-    font-size: 1.5rem;
-  } */
+body {
+  font-family: 'Lato', sans-serif;
+
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+}
   
-  .jumbotron {
+  /* .jumbotron {
     padding-top: 10rem;
     text-align: center;
     background-size: cover;
@@ -15,14 +19,26 @@
     background-image: url("resources/rocks.jpg");
     height: 100vh;
     overflow: hidden;
+  } */
+  .pic {
+    background-image: url("resources/rocks.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
   }
   .yellow {
     background-color: #F4C95B;
   }
 
+.section1 {
+  height: 50vh;
+}
   .black {
     background-color: black;
     color: white;
+    text-align: center;
   }
   
   .btn-warning {
