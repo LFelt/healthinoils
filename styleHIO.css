@@ -8,8 +8,8 @@ body {
 h1 {
   font-family: 'Oswald', sans-serif;
 }
-  
-  /* .jumbotron {
+/*   
+  .jumbotron {
     padding-top: 10rem;
     text-align: center;
     background-size: cover;
@@ -20,6 +20,13 @@ h1 {
     height: 100vh;
     overflow: hidden;
   } */
+
+  .jumbotron {
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 6.5rem;
+
+  }
   .pic {
     background-image: url("resources/rocks.jpg");
     background-size: cover;
