@@ -47,6 +47,11 @@ h1 {
 .title {
   text-align: center;
 }
+.grey {
+  background-color: #DCC78F;
+  color: white;
+
+}
   .products {
     display: flex;
     justify-content: space-around;
