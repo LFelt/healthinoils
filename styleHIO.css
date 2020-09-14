@@ -30,7 +30,7 @@ h1 {
   .pic {
     background-image: url("resources/rocks.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     overflow: hidden;
 
@@ -65,8 +65,3 @@ h1 {
     /* flex-direction: row;  */
   }
 
-  .row1,
-   .row2 {
-     display: flex;
-     flex-direction: row; 
-  } 
