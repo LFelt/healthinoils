@@ -7,7 +7,13 @@ body {
 }
 h1 {
   font-family: 'Oswald', sans-serif;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  /* line-height: 2rem; */
 }
+
+
 /*   
   .jumbotron {
     padding-top: 10rem;
@@ -25,6 +31,7 @@ h1 {
     margin-bottom: 0;
     text-align: center;
     padding-top: 6.5rem;
+    line-height: 1rem;
 
   }
   .pic {
@@ -39,9 +46,9 @@ h1 {
     background-color: #F4C95B;
   }
 
-.section1 {
+/* .section1 {
   height: 50vh;
-}
+} */
   .black {
     background-color: black;
     color: white;
@@ -50,18 +57,28 @@ h1 {
   
   .btn-warning {
     background-color: #F4C95B;
+    margin-top: 1rem;
+
   }
 .title {
   text-align: center;
+  padding-top: 1rem
 }
 .grey {
   background-color: #DCC78F;
   color: white;
+  padding: .5rem
+}
 
+.space {
+  /* line-height: 3rem; */
 }
   .products {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex;
+    justify-content: space-around; */
     /* flex-direction: row;  */
   }
 
+.contact {
+  text-align: right;
+}
