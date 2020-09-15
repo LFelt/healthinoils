@@ -1,88 +1,70 @@
-.container-fluid { 
-  padding: 0;
-}
 body {
   font-family: 'Lato', sans-serif;
-
 }
+
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: .5rem;
-  /* line-height: 2rem; */
 }
 
+hr {
+  border: 1px solid;
+  width: 16%;
+  margin-top: 0;
+}
 
-/*   
-  .jumbotron {
-    padding-top: 10rem;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    background-image: url("resources/rocks.jpg");
-    height: 100vh;
-    overflow: hidden;
-  } */
+.container-fluid { 
+  padding: 0;
+}
 
   .jumbotron {
     margin-bottom: 0;
     text-align: center;
     padding-top: 6.5rem;
     line-height: 1rem;
-
+    overflow: hidden;
   }
+
+  .black {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  .btn-warning {
+    background-color: #F4C95B;
+    margin-top: 1rem;
+  }
+
   .pic {
     background-image: url("resources/rocks.jpg");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     overflow: hidden;
-
   }
+
   .yellow {
     background-color: #F4C95B;
   }
 
-/* .section1 {
-  height: 50vh;
-} */
-  .black {
-    background-color: black;
+  .grey {
+    background-color: #DCC78F;
     color: white;
-    text-align: center;
+    padding: .5rem
   }
-  
-  .btn-warning {
-    background-color: #F4C95B;
-    margin-top: 1rem;
 
-  }
 .title {
   text-align: center;
   padding-top: 1rem
 }
-.grey {
-  background-color: #DCC78F;
-  color: white;
-  padding: .5rem
-}
-hr{
-  border: 1px solid;
-  width: 16%;
-  margin-top: 0;
-}
+
 .size {
   width: 40%;
   padding: 1rem;
 }
-  .products {
-    /* display: flex;
-    justify-content: space-around; */
-    /* flex-direction: row;  */
-  }
 
 .contact {
   text-align: right;
