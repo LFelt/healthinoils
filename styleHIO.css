@@ -69,7 +69,11 @@ h1 {
   color: white;
   padding: .5rem
 }
-
+hr{
+  border: 1px solid;
+  width: 16%;
+  margin-top: 0;
+}
 .space {
   /* line-height: 3rem; */
 }
