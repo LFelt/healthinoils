@@ -74,8 +74,9 @@ hr{
   width: 16%;
   margin-top: 0;
 }
-.space {
-  /* line-height: 3rem; */
+.size {
+  width: 40%;
+  padding: 1rem;
 }
   .products {
     /* display: flex;
@@ -85,4 +86,6 @@ hr{
 
 .contact {
   text-align: right;
+  line-height: .5rem;
+  padding-top: 1rem;
 }
