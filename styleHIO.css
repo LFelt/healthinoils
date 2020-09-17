@@ -60,6 +60,11 @@ hr {
     padding: .5rem
   }
 
+.space {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  }
+
 .title {
   text-align: center;
   padding-top: 1rem
