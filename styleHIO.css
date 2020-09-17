@@ -94,6 +94,11 @@ hr {
 .shadow {
   text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
 }
+
+.space {
+  padding-bottom: inherit;
+  padding-top: inherit
+}
   
 }
 
