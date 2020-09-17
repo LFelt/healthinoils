@@ -71,3 +71,25 @@ hr {
   line-height: .5rem;
   padding-top: 1rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .full {
+    display: none;
+  }
+  /* .container {
+    padding-right: 0;
+  } */
+  /* .mobile {
+    color: white
+  } */
+  .jumbotron {
+    padding: 3rem
+  }
+  .row {
+    margin-right: 0;
+  }
+  .pic {
+    opacity: 0.75;
+  }
+  
+}
