@@ -76,20 +76,24 @@ hr {
   .full {
     display: none;
   }
-  /* .container {
-    padding-right: 0;
-  } */
-  /* .mobile {
-    color: white
-  } */
+
   .jumbotron {
     padding: 3rem
   }
+
   .row {
     margin-right: 0;
   }
+
   .pic {
     opacity: 0.75;
   }
   
 }
+
+@media only screen and (min-width: 600px) {
+  .mobile {
+    display: none
+  }
+}
+
