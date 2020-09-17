@@ -78,16 +78,16 @@ hr {
   }
 
   .jumbotron {
-    padding: 3rem
+    padding: 3rem;
+    color: white;
   }
 
   .row {
     margin-right: 0;
   }
-
-  .pic {
-    opacity: 0.75;
-  }
+.shadow {
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
   
 }
 
